@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_in - Runs a function on every element of a binary tree
+ * binary_tree_inorder - Runs a function on every element of a binary tree
  *
  * @tree: The tree to be traversed/ran a function on
  * @func: The function to be performed on each node
