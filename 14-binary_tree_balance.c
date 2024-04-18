@@ -69,7 +69,5 @@ int binary_tree_balance(const binary_tree_t *tree)
 	if (tree->right)
 		right_balance = binary_tree_height(tree->right) + 1;
 
-	printf("left_balance: %i\nright_balance: %i\n", left_balance, right_balance);
-
 	return (left_balance - right_balance);
 }
