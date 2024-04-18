@@ -21,7 +21,5 @@ int binary_tree_balance(const binary_tree_t *tree)
 	balance = balance + binary_tree_balance(tree->left) -
 		binary_tree_balance(tree->right);
 
-	printf("%i balance: %i\n", tree->n, balance);
-
 	return (balance);
 }
